@@ -1,0 +1,21 @@
+.button {
+    border: none;
+    outline: none;
+    background: #6096FF;
+    font-family: 'Gilroy Black', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    &-o {
+        background-color: #fff;
+        color: #242424;
+        border: 3px solid #6096FF;
+    }
+    &:hover {
+        transform: scale(1.03);
+    }
+}

@@ -1,0 +1,88 @@
+.form-last {
+    background: #F2F2F2;
+    padding-bottom: 170px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        position: relative;
+        padding: 63px 50px;
+        width: 655px;
+        background: #FFFFFF;
+        text-align: center;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        &::before {
+            content: '';
+            position: absolute;
+            left: -320px;
+            bottom: 45px;
+            width: 320px;
+            height: 413px;
+            background: url('../img/form-last/item-bg.png') no-repeat;
+        }
+    }
+    &__title {
+        font-family: 'Gilroy Black', sans-serif;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 100%;
+        color: #242424;
+        margin-bottom: 30px;
+        &--color {
+            display: block;
+            color: #534DE0;
+            margin-bottom: 0;
+        }
+    }
+    &__descr {
+        max-width: 520px;
+        font-family: 'Gilroy Regular', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 120%;
+        text-align: center;
+        color: #242424;
+        margin: 0 auto 20px;
+    }
+    &__input-group {
+        width: 520px;
+        margin: 0 auto 20px;
+        &--last {
+            margin: 0 auto 30px;
+        }
+    }
+    &__input {
+        border: none;
+        width: 100%;
+        height: 60px;
+        border: 3px solid #9199B1;
+        border-radius: 15px;
+        padding: 0 25px;
+        color: rgba(36, 36, 36, 0.5);
+        font-size: 18px;
+        line-height: 21px;
+        &::placeholder {
+            color: rgba(36, 36, 36, 0.5);
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__button {
+        width: 520px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    &__copy {
+        font-family: 'Roboto Regular', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #242424;
+    }
+    &__image-mobile {
+        display: none;
+    }
+}

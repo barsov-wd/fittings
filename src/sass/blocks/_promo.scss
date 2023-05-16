@@ -1,0 +1,53 @@
+.promo {
+    background: #F2F2F2 url('../img/promo/promo-bg.png') no-repeat;
+    background-position: top right;
+    &__content {
+        padding-top: 147px;
+        padding-bottom: 168px;
+    }
+    &__bg-mobile {
+        display: none;
+    }
+    &__title {
+        font-family: 'Gilroy Black', sans-serif;
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 87px;
+        color: #242424;
+        max-width: 706px;
+        margin-bottom: 23px;
+        &--color {
+            color: #534DE0;
+            text-transform: uppercase;
+        }
+    }
+    &__text {
+        font-family: 'Gilroy Regular', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        color: #242424;
+        margin-bottom: 35px;
+    }
+    &__button {
+        width: 385px;
+        height: 60px;
+        margin-bottom: 62px;
+    }
+    &__features {
+        display: flex;
+        column-gap: 50px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+    &__item-text {
+        font-family: 'Gilroy Regular', sans-serif;
+        margin-left: 18px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #242424;
+    }
+}

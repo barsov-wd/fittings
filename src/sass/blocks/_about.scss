@@ -1,0 +1,107 @@
+.about {
+    background: #F2F2F2 url('../img/about/about-bg.png') no-repeat;
+    background-position: bottom 125px right;
+    padding-bottom: 125px;
+    &__title {
+        margin-bottom: 60px;
+    }
+    &__descr {
+        font-family: 'Roboto Regular', sans-serif;
+        max-width: 1159px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #242424;
+        margin-bottom: 35px;
+        &:last-child {
+            margin-bottom: 20px;
+        }
+        &--color {
+            font-family: 'Roboto Black', sans-serif;
+            font-weight: 900;
+            color: #534DE0;
+        }
+    }
+    .swiper-container {
+        position: relative;
+        width: 520px;
+        margin-left: 0;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        // background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        width: 203px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        // width: auto !important;
+        // left: auto !important;
+        // margin: 0;
+        // margin-left: 200px;
+    }
+
+    .swiper-pagination-bullet {
+        font-family: 'Roboto Regular', sans-serif;
+        font-weight: 400;
+        padding: 0;
+        border-radius: 0;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 18px;
+        color: #242424;
+        opacity: 1;
+        background: transparent;
+    }
+
+    .swiper-pagination-bullet-active {
+        color: #6096FF;
+        // background: #007aff;
+    }
+
+    .swiper-slide__image {
+        margin-right: 21px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 50px!important;
+        height: 21px!important;
+        cursor: pointer;
+    }
+    .swiper-wrapper {
+        margin-bottom: 20px;
+    }
+    &-button-next {
+        position: absolute;
+        right: 0;
+    }
+    &__image-medium {
+        display: none;
+    }
+    .swiper-mobile {
+        display: none;
+    }
+}
