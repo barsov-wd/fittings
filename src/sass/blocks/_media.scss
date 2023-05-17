@@ -489,6 +489,8 @@
             line-height: 17px;
         }
         &__content-title {
+            width: 315px;
+            margin: 0 auto;
             font-size: 14px;
             line-height: 18px;
         }
@@ -671,8 +673,9 @@
         }
         &-main__dialog {
             width: 365px;
-            height: 549px;
+            height: 569px;
             padding-top: 86px;
+            padding-bottom: 57px;
         }
         &-main__title {
             width: 335px;
@@ -758,6 +761,10 @@
         padding-bottom: 70px;
         &__title {
             margin-bottom: 35px;
+        }
+        &__content-title {
+            width: 240px;
+            margin: 0 auto;
         }
     }
     .about {
