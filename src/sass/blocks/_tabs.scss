@@ -31,15 +31,18 @@
     &__content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: stretch;
         row-gap: 20px;
         flex-wrap: wrap;
     }
     &__content-list {
         padding-left: 25px;
-        margin-bottom: 18px;
+        // margin-bottom: 18px;
     }
     &__content-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         padding: 15px 15px 20px 15px;
         width: 520px;
         min-height: 520px;
@@ -47,16 +50,16 @@
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
         border-radius: 15px;
     }
-    &__content-image {
-        margin-bottom: 15px;
-    }
+    // &__content-image {
+    //     margin-bottom: 15px;
+    // }
     &__content-title {
         font-family: 'Gilroy Black', sans-serif;
         font-weight: 900;
         font-size: 22px;
         line-height: 28px;
         color: #534DE0;
-        margin-bottom: 10px;
+        // margin-bottom: 10px;
         text-align: center;
     }
     &__content-list-item {

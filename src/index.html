@@ -17,7 +17,7 @@
         <div class="container">
             <div class="header__inner">
                 <picture class="header__logo">
-                    <source media="(max-width: 992px)" srcset="./img/header/logoM.png">
+                    <source media="(max-width: 992px)" srcset="./img/header/logoM.svg">
                     <img src="./img/header/logo.png" alt="logo">
                 </picture>
                 <nav class="header__nav">
@@ -387,7 +387,7 @@
         <div class="container">
             <div class="footer__inner">
                 <picture class="footer__logo">
-                    <source media="(max-width: 992px)" srcset="./img/header/logoM.png">
+                    <source media="(max-width: 992px)" srcset="./img/header/logoM.svg">
                     <img src="./img/header/logo.png" alt="logo">
                 </picture>
                 <nav class="footer__nav">
@@ -407,8 +407,14 @@
                     </ul>
                 </nav>
                 <div class="footer__contacts">
-                    <a class="footer__contacts-text footer__contacts-text--phone" href="tel:+79000000000">+7 (900) 000-00-00</a>
-                    <a class="footer__contacts-text footer__contacts-text--email" href="mailto:почта@ком.">почта@ком.</a>
+                    <div class="footer__contacts-inner">
+                        <img src="./img/header/icon-phone.svg" alt="icon-phone" class="footer__contacts-icon">
+                        <a class="footer__contacts-text footer__contacts-text--phone" href="tel:+79000000000">+7 (900) 000-00-00</a>
+                    </div>
+                    <div class="footer__contacts-inner">
+                        <img src="./img/header/icon-email.svg" alt="icon-email" class="footer__contacts-icon">
+                        <a class="footer__contacts-text footer__contacts-text--email" href="mailto:почта@ком.">почта@ком.</a>
+                    </div>
                 </div>
             </div>
             <p class="footer__text">
@@ -432,7 +438,7 @@
 
     <div class="menu">
         <div class="menu__dialog">
-            <img data-menuClose class="menu__close" src="img/menu/close.png" alt="close">
+            <img data-menuClose class="menu__close" src="img/modal/close.png" alt="close">
             <div class="menu__box menu__box--1">
                 <nav class="menu__nav">
                     <a data-menuClose href="#promo" class="menu__link">Главная</a>
@@ -499,7 +505,7 @@
     </div>
     <!-- ./modal-thanks -->
 
-    <a data-modal href="tel:+78000000000" class="phone-fix">
+    <a href="tel:+78000000000" class="phone-fix">
         <img src="./img/phoneFix.svg" alt="phone">
     </a>
 
